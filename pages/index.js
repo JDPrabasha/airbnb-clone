@@ -34,7 +34,7 @@ export default function Home({ exploreData, cardsData }) {
         </section>
         <LargeCard
           image={"https://links.papareact.com/4cj"}
-          title={"The Greatsest Outdoors"}
+          title={"The Greatest Outdoors"}
           buttonText={"Get Inspired"}
           description={"Wishlist curated by Airbnb"}
         />
