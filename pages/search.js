@@ -31,9 +31,9 @@ function Search({ searchResults }) {
               "Price",
               "Rooms and Beds",
               "More filters",
-            ].map((item) => (
+            ].map((item, index) => (
               <p
-                key={item}
+                key={index}
                 className="px-4 py-2 border cursor-pointer active:scale-95 active:bg-gray-100 transition duration-100 transform ease-out rounded-full hover:shadow-lg"
               >
                 {item}
